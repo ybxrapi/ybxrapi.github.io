@@ -1,0 +1,10 @@
+<script type="text/javascript">   
+     $.ajax({  
+         url:"http://api.ybxr.tk",  
+         dataType:'jsonp',  
+         data:'{"a":1,"b":2}',   
+         success:function(result) {  
+            alert(result.results[0].totalPV);
+         }      
+     }); 
+</script>
